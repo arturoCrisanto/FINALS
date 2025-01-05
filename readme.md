@@ -18,7 +18,7 @@ This project involves creating a basic backend system for managing tasks. The sy
 npm init -y
 ```
 
-    - This command will generate a package.json file with the default configuration.
+- This command will generate a package.json file with the default configuration.
 
 2. Install Required Dependencies
    - Install the necessary dependencies for the project:
@@ -75,7 +75,7 @@ npm i express nodemon dotenv
 npm run dev
 ```
 
-    - The server should now be running on the port specified in your `.env` file (default to 3000 if not specified).
+- The server should now be running on the port specified in your `.env` file (default to 3000 if not specified).
 
 10. Testing the Endpoints
 
@@ -85,6 +85,8 @@ npm run dev
       - GET `/task/:status`: Retrieve all tasks or filter by status.
       - PUT `/tasks/:id`: Update an existing task.
       - DELETE `/tasks/:id`: Delete a task by ID.
+
+---
 
 11. Model (models/taskModel.js)
 
