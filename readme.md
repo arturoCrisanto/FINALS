@@ -10,6 +10,10 @@ This project involves creating a basic backend system for managing tasks. The sy
 ---
 
 ## Setup Instructions
+if you encounter an error
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
 
 1. Initialize the Project
    - Open the terminal and create a new directory for the project.
