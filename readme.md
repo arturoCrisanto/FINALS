@@ -78,6 +78,9 @@ npm i express nodemon dotenv
 ```bash
 npm run dev
 ```
+```bash
+http://localhost:3000
+```
 
 - The server should now be running on the port specified in your `.env` file (default to 3000 if not specified).
 
